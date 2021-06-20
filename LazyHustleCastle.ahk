@@ -100,27 +100,7 @@ grotNepobedimogo := new Button({x: 548,y: 277,colors: [0x9492DE , 0x9492DE]}, {x
 ozeroChudicha := new Button({x: 544,y: 277,colors: [0x50873C , 0x50873C]}, {x: 566,y: 259,colors: [0x24B8E6, 0x24B8E6]})
 pesheraKorotishki := new Button({x: 565,y: 279,colors: [0x1C2CA5 , 0x1C2CA5]}, {x: 579,y: 256,colors: [0xB8AE62, 0xB8AE62]})
 
-dungeonGoToBattle := new Button({x: 819,y: 645,colors: [0x119F0A , 0x12A50B]}, {x: 1002,y: 584,colors: [0x17D26E, 0x18DB73]})
-dungeonGoToBattleLeader := new Button({x: 873,y: 620,colors: [0xE6E665 , 0xE6E665]}, {x: 875,y: 618,colors: [0xE7C47E, 0xE7C47E]})
-dungeonGoHere := new Button({x: 821,y: 646,colors: [0x0F9C08 , 0x10A208]}, {x: 1002,y: 587,colors: [0x17D26E, 0x18DB73]})
 dungeonGoHereLeader := new Button({x: 842,y: 619,colors: [0xD86D13 , 0xD86D13]}, {x: 844,y: 611,colors: [0x29DFF7, 0x29DFF7]})
-dungeonHome := new Button({x: 485,y: 706,colors: [0x0FA419 , 0x10AA1A]}, {x: 627,y: 646,colors: [0x17D26E, 0x18DB73]})
-dungeonGetReward := new Button({x: 488,y: 508,colors: [0x0FA516 , 0x10AC17]}, {x: 622,y: 459,colors: [0x0FBB4F, 0x10C352]})
-dungeonGetReward2 := new Button({x: 489,y: 569,colors: [0x129D08 , 0x13A308]}, {x: 623,y: 518,colors: [0x0CBB4C, 0x0DC34F]})
-dungeonGetReward2 := new Button({x: 489,y: 487,colors: [0x129D08 , 0x13A308]}, {x: 613,y: 435,colors: [0x17D26E, 0x18DB73]})
-dungeonImLeader := new Button({x: 376,y: 666,colors: [0x00F6FF , 0x00F6FF]}, {x: 376,y: 657,colors: [0x00F6FF, 0x00F6FF]})
-dungeonClosePoint := new Button({x: 1019,y: 145,colors: [0xF5F5F5 , 0xFFFFFF]}, {x: 1031,y: 124,colors: [0x0F2EDE, 0x1030E7]})
-dungeonVSBattle := new Button({x: 539,y: 202,colors: [0x0069A7 , 0x0069A7]}, {x: 563,y: 176,colors: [0x04BCFB, 0x04BCFB]})
-dungeonInfo := new Button({x: 24,y: 75,colors: [0xBEAB00 , 0xC6B200]}, {x: 46,y: 59,colors: [0xF5F5F5, 0xFFFFFF]})
-dungeonInfo2 := new Button({x: 29,y: 79,colors: [0x4D4500 , 0x4D4500]}, {x: 48,y: 58,colors: [0x636261, 0x636261]})
-dungeonCloseReward := new Button({x: 1061,y: 73,colors: [0xF5F5F5 , 0xFFFFFF]}, {x: 1070,y: 51,colors: [0x0F2EDE, 0x1030E7]})
-dungeonBossPoint := new Button({x: 419,y: 439,colors: [0x0505DC , 0x0505DC]}, {x: 419,y: 439,colors: [0x0505DC, 0x0505DC]})
-dungeonRewardChest := new Button({x: 673,y: 168,colors: [0xD2CDA4 , 0xD6CFAB]}, {x: 728,y: 120,colors: [0xE2E0D7, 0xEFEDDF]})
-dungeonRewardEfir := new Button({x: 478,y: 167,colors: [0xD0CCA7 , 0xD1C9AE]}, {x: 531,y: 121,colors: [0xD9D7B4, 0xDBD7BD]})
-dungeonRewardFragment := new Button({x: 600,y: 159,colors: [0xE3B876 , 0xECC07B]}, {x: 608,y: 135,colors: [0xE3B876, 0xECC07B]})
-dungeonTrueComplete := new Button({x: 915,y: 701,colors: [0x0CBB4C , 0x0DC34F]}, {x: 1081,y: 650,colors: [0x17D26E, 0x18DB73]})
-dungeonCloseInfo := new Button({x: 465,y: 636,colors: [0x0CBB4C , 0x0DC34F]}, {x: 643,y: 584,colors: [0x17D26E, 0x18DB73]})
-dungeonSelectingAnEffect := new Button({x: 422,y: 123,colors: [0xCCBD00 , 0xCCBD00]}, {x: 589,y: 107,colors: [0xFFFFFF, 0xFFFFFF]})
 
 if not WinExist("ahk_exe HC.exe") {
     Run, "mailrugames://play/0.2002058"
@@ -159,11 +139,14 @@ dungeonRewardChest := new Button({x: 673,y: 168,colors: [0xD2CDA4 , 0xD6CFAB]}, 
 dungeonRewardEfir := new Button({x: 478,y: 167,colors: [0xD0CCA7 , 0xD1C9AE]}, {x: 531,y: 121,colors: [0xD9D7B4, 0xDBD7BD]})
 dungeonRewardFragment := new Button({x: 600,y: 159,colors: [0xE3B876 , 0xECC07B]}, {x: 608,y: 135,colors: [0xE3B876, 0xECC07B]})
 dungeonTrueComplete := new Button({x: 915,y: 701,colors: [0x0CBB4C , 0x0DC34F]}, {x: 1081,y: 650,colors: [0x17D26E, 0x18DB73]})
+dungeonTrueCompleteYes := new Button({x: 391,y: 511,colors: [0x129D08 , 0x13A308]}, {x: 527,y: 448,colors: [0x0CBB4C, 0x0DC34F]})
 dungeonCloseInfo := new Button({x: 465,y: 636,colors: [0x0CBB4C , 0x0DC34F]}, {x: 643,y: 584,colors: [0x17D26E, 0x18DB73]})
 dungeonSelectingAnEffect := new Button({x: 422,y: 123,colors: [0xCCBD00 , 0xCCBD00]}, {x: 589,y: 107,colors: [0xFFFFFF, 0xFFFFFF]})
 dungeonKillMyself := new Button({x: 467,y: 111,colors: [0x222000 , 0x222000]}, {x: 649,y: 115,colors: [0x0E0D00, 0x0E0D00]})
 dungeonMyTeam := new Button({x: 575,y: 121,colors: [0x94B9D0 , 0x9AC1D9]}, {x: 904,y: 86,colors: [0x94B9D0, 0x9AC1D9]})
 dungeonChooseMenu := new Button({x: 82,y: 663,colors: [0xCBBB00 , 0xCBBB00]}, {x: 1042,y: 123,colors: [0x0F2EDE, 0x1030E7]})
+dungeonHomeCastle := new Button({x: 35,y: 685,colors: [0xB5C7CE , 0xB5C7CE]}, {x: 104,y: 590,colors: [0x2124EF, 0x2124EF]})
+dungeonInvite := new Button({x: 888,y: 674,colors: [0x22B85F , 0x23C063]}, {x: 1055,y: 636,colors: [0x2FCA6C, 0x31D270]})
 toggleInvasion:= true
 toggleHike := true
 toggleWatchAd := true
@@ -351,22 +334,39 @@ simplificationDungeon:
     PixelSearch, P4x, P4y, 0, 0, 1112, 740, 0x293BCE, 0, fast ; Dungeion Point
     PixelSearch, P9x, P9y, 0, 0, 1112, 740, 0x293BD1, 0, fast ; Dungeion Point
     IsThereADungeonPoint := P4x > 0 and P4y > 0
-    if(IsThereADungeonPoint and dungeonImLeader.isExists()){
+    if(IsThereADungeonPoint and dungeonImLeader.isExists() and dungeonHomeCastle.isExists()){
         MouseClick, Left, P4x, P4y-5
         ; SetTimer, simplificationDungeon, 100
     } else if(P9x > 0 and P9y > 0 and dungeonImLeader.isExists()){
         MouseClick, Left, P9x, P9y-5
         ; SetTimer, simplificationDungeon, 100
     } 
-    else if (P5x > 0 and P5y > 0 and not dungeonImLeader.isExists() and not dungeonChooseMenu.isExists() ){
+    else if (P5x > 0 and P5y > 0 and not dungeonImLeader.isExists() and not dungeonChooseMenu.isExists() and dungeonHomeCastle.isExists() ){
         MouseClick, Left, P5x+50, P5y+50
+        sleep 1000
+        PixelSearch, Px, Py, 0, 0, 1112, 740, 0x5A5400,0, fast ; Идем сюда
+        if(P5x == Px and P5y == Py){
+            MouseClick, Left, P5x-50, P5y+50
+
+        }
         ; sleep 100
         ; MouseClick, Left, P5x-50, P5y+50
     } else if dungeonGoHere.isExists() and dungeonGoHereLeader.isExists() {
         dungeonGoHere.click()
     }
     else if dungeonGoToBattle.isExists() {
-        if dungeonGoToBattleLeader.isExists() or dungeonGoToBattleLeader2.isExists() or dungeonGoToBattleLeader3.isExists() or dungeonGoToBattleLeader4.isExists() or dungeonGoToBattleLeader5.isExists(){
+        ; {x: 818,y: 648,colors: [0x5D9606 , 0x5D9906]}, {x: 1006,y: 580,colors: [0x6DBB27, 0x6EBE28]}
+        ; {x: 817,y: 633,colors: [0x129C08 , 0x13A308]}, {x: 1001,y: 569,colors: [0x17D26E, 0x18DB73]}
+        ; {x: 837,y: 606,colors: [0xE5DC5E , 0xE5DC5E]}, {x: 837,y: 606,colors: [0xE5DC5E, 0xE5DC5E]}
+        ; {x: 838,y: 607,colors: [0xCB6105 , 0xCB6105]}, {x: 838,y: 607,colors: [0xCB6105, 0xCB6105]}
+        ; {x: 876,y: 619,colors: [0xFBC52B , 0xFBC52B]}, {x: 876,y: 619,colors: [0xFBC52B, 0xFBC52B]}
+        ; {x: 840,y: 598,colors: [0x04B2FE , 0x04B2FE]}, {x: 840,y: 598,colors: [0x04B2FE, 0x04B2FE]}
+        ; 0x9EF7FB
+        ; {x: 845,y: 605,colors: [0x00AFFF , 0x00AFFF]}, {x: 845,y: 605,colors: [0x00AFFF, 0x00AFFF]}
+        PixelSearch, Px, Py,817, 633, 1001, 569, 0x00AFFF, 0, fast 
+        PixelSearch, P2x, P2y,817, 633, 1001, 569, 0x9EF7FB, 0, fast 
+        dungeonLeader := Px > 0 and Py > 0 or P2x > 0 and P2y > 0
+        if dungeonLeader{
             dungeonGoToBattle.click() 
         } else {
             Send, {ESC}
@@ -384,6 +384,14 @@ simplificationDungeon:
         dungeonCloseInfo.click()
     } else if dungeonMyTeam.isExists(){
         dungeonMyTeam.click()
+    } else if dungeonTrueComplete.isExists() {
+        dungeonTrueComplete.click()
+        sleep 2000
+        if dungeonTrueCompleteYes.isExists(){
+            dungeonTrueCompleteYes.click()
+        }
+    } else if dungeonInvite.isExists(){
+        dungeonInvite.click()
     }
 
 return
