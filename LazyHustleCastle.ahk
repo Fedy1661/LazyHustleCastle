@@ -363,9 +363,10 @@ simplificationDungeon:
         ; {x: 840,y: 598,colors: [0x04B2FE , 0x04B2FE]}, {x: 840,y: 598,colors: [0x04B2FE, 0x04B2FE]}
         ; 0x9EF7FB
         ; {x: 845,y: 605,colors: [0x00AFFF , 0x00AFFF]}, {x: 845,y: 605,colors: [0x00AFFF, 0x00AFFF]}
-        PixelSearch, Px, Py,817, 633, 1001, 569, 0x00AFFF, 0, fast 
-        PixelSearch, P2x, P2y,817, 633, 1001, 569, 0x9EF7FB, 0, fast 
-        dungeonLeader := Px > 0 and Py > 0 or P2x > 0 and P2y > 0
+        PixelSearch, Px, Py, 817, 633, 1001, 569, 0x00AFFF, 0, fast 
+        PixelSearch, P2x, P2y, 817, 633, 1001, 569, 0x9EF7FB, 0, fast 
+        PixelSearch, P3x, P3y, 817, 633, 1001, 569, 0xD48F3E, 0, fast 
+        dungeonLeader := Px > 0 and Py > 0 or P2x > 0 and P2y > 0 or P3x > 0 and P3y > 0
         if dungeonLeader{
             dungeonGoToBattle.click() 
         } else {
